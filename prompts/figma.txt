@@ -1,0 +1,1 @@
+Figma file key {FIGMA_FILE_KEY} has five card frames, nodes 1:2, 1:5, 1:9, 1:14 and 1:20. Read the design context of each frame separately with the Figma connector, then report for each frame its name, the number of text layers and the font size. Do not change the file.

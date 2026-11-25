@@ -1,0 +1,1 @@
+Add a function unique(xs) in tools/unique.py that drops repeats but keeps the first-seen order. Add tests and run the whole suite.

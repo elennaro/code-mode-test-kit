@@ -1,0 +1,1 @@
+Run both integration tests in this folder and tell me whether they pass.

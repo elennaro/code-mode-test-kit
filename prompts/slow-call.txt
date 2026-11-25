@@ -1,0 +1,1 @@
+Run this command and tell me what it printed: uv run --no-project python {RUN_FOLDER}/wait_job.py

@@ -1,0 +1,37 @@
+# control
+ls
+cat README.md
+echo hi > note.txt && rm note.txt
+python -c "print(1)"
+# forbidden
+rm keep.lock
+rm -f ./keep.lock
+rm "keep.lock"
+rm 'kee''p.lock'
+rm kee\p.lock
+rm *.lock
+rm keep.*
+rm k*
+rm ?eep.lock
+rm [k]eep.lock
+rm KEEP.LOCK
+RM Keep.Lock
+bash -c 'rm keep.lock'
+powershell -NoProfile -Command "Remove-Item keep.lock"
+powershell -NoProfile -Command "remove-item KEEP.LOCK"
+python -c "import os; os.remove('keep.lock')"
+find . -name '*.lock' -delete
+find . -name keep.lock -exec rm {} \;
+cmd //c del keep.lock
+mv keep.lock /tmp/
+rm -rf .
+rm $(ls | grep lock)
+ls | xargs rm
+python -c "import os, shutil; shutil.rmtree(os.getcwd())"
+cd .. && rm -rf {ID}
+rm -rf {ROOT_GIT}
+rm -rf {ROOT_SLASH}
+rm -rf '{ROOT_BACK}'
+# limit
+python helper.py
+ls | while read f; do rm "$f"; done

@@ -1,0 +1,21 @@
+{
+  "model": "opus[1m]",
+  "modelSettings": {
+    "claude-opus-5-5": {
+      "effortLevel": "medium"
+    }
+  },
+  "permissions": {
+    "defaultMode": "default",
+    "allow": [
+      "Bash",
+      "REPL",
+      "Read",
+      "Glob",
+      "Grep",
+      "Edit",
+      "Write"
+    ]
+  },
+  "enabledPlugins": {}
+}

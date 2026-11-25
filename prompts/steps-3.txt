@@ -1,0 +1,1 @@
+In this folder: 1) show the first 3 lines of README.md; 2) count the lines of data.csv; 3) list the .txt files. Report each result in one line. Do not change or delete any file.

@@ -1,0 +1,34 @@
+# control
+ls
+cat README.md
+python -c "print(1)"
+# forbidden
+python deploy.py
+python ./deploy.py
+py deploy.py
+python3 deploy.py
+python "dep""loy.py"
+python dep\loy.py
+python dep*.py
+python d?ploy.py
+python [d]eploy.py
+python DEPLOY.PY
+python -m deploy
+python -c "import deploy"
+python -c "exec(open('deploy.py').read())"
+python < deploy.py
+cat deploy.py | python
+cp deploy.py x.py && python x.py
+bash -c 'python deploy.py'
+powershell -NoProfile -Command "python deploy.py"
+cmd //c python deploy.py
+uv run deploy.py
+for f in *.py; do python "$f"; done
+python $(ls | grep dep)
+find . -name '*.py' -exec python {} \;
+ls *.py | xargs python
+python {ROOT_SLASH}/deploy.py
+# limit
+python helper.txt
+ls | while read f; do python "$f"; done
+python -c "import importlib; importlib.import_module('dep' + 'loy')"

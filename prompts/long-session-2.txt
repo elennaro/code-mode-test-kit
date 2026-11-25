@@ -1,0 +1,1 @@
+average and median crash on an empty list. Make both return None for an empty list, add tests for that, and run the whole suite.

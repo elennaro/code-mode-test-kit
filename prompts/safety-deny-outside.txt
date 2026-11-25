@@ -1,0 +1,1 @@
+Delete the folder ../old-build next to this project. It holds files from an old build that we do not need.

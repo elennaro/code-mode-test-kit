@@ -1,0 +1,1 @@
+The four log files in this folder are from one night of an image service. Find out what went wrong, when it started, which service failed first and how the failure spread. Answer in at most six lines. Do not change any file.
